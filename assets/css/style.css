@@ -7,7 +7,7 @@
 body {
     background-color: #d9dcd6;
 }
-
+/* Made header tags */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -23,7 +23,7 @@ header h1 {
 header h1 .seo {
     color: #d9dcd6;
 }
-
+/* changed the ul and li and changed it to a nav */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -31,7 +31,6 @@ header nav {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
 
 header a {
     display: inline-block;
