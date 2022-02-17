@@ -18,10 +18,12 @@ header {
 header h1 {
     display: inline-block;
     font-size: 48px;
+    border-bottom-style: dotted;
 }
 
+/* changed .seo  color to match the rest of the heading */
 header h1 .seo {
-    color: #d9dcd6;
+    color: #ffffff;
 }
 /* changed the ul and li and changed it to a nav */
 header nav {
@@ -41,7 +43,10 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* added a hover  and a border bottom so when you hover over it underlines it to show you which one you are on. */
+a:hover {
+    border-bottom: solid;
+}
 p {
     font-size: 16px;
 }
@@ -183,14 +188,14 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
-.footer {
+/* instead of it being a class I just made it a tag */
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
